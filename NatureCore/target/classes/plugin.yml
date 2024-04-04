@@ -1,0 +1,177 @@
+name: NatureCore
+version: '2.1'
+main: org.rokyytr.naturecore.NatureCore
+api-version: '1.18'
+authors: [ RokyYTR, ItzTobiass ]
+description: NatureCore
+
+commands:
+  gmc:
+    description: Set your gamemode to Creative.
+    aliases: [gmcreative, creative, gmc]
+    permission: naturecore.gamemode.creative
+  gms:
+    description: Set your gamemode to Survival.
+    aliases: [gmsurvival, survival, gms]
+    permission: naturecore.gamemode.survival
+  gma:
+    description: Set your gamemode to Adventure.
+    aliases: [gmadventure, adventure, gma]
+    permission: naturecore.gamemode.adventure
+  gmsp:
+    description: Set your gamemode to Spectator.
+    aliases: [gmspectator, spectator, gmsp]
+    permission: naturecore.gamemode.spectator
+  rain:
+    description: Set weather to rain
+    permission: naturecore.weather.rain
+  sun:
+    description: Set weather to sun
+    permission: naturecore.weather.sun
+  tpcoords:
+    description: Tp to coords
+    permission: naturecore.tpcoords
+  tp:
+    description: Tp player to player
+    permission: naturecore.tp
+  tpall:
+    description: Tpall players to player
+    permission: naturecore.tpall
+  broadcast:
+    description: Broadcast a message to all players.
+    usage: /broadcast [message]
+    aliases: [bc]
+    permission: naturecore.broadcast
+  anvil:
+    description: Heal your self or player.
+    permission: naturecore.heal
+  craft:
+    description: Feed your self or player.
+    permission: naturecore.feed
+  smite:
+    description: Smite someone with lightning.
+    permission: naturecore.smite
+  heal:
+    description: Heal your self or player.
+    permission: naturecore.heal
+  fly:
+    description: Turn on and off fly.
+    usage: /fly [number]
+    permission: naturecore.fly
+  speed:
+    description: Turn on and off speed.
+    permission: naturecore.speed
+  flyspeed:
+    description: Turn on and off fly speed.
+    permission: naturecore.flyspeed
+  clearinventory:
+    description: Clear your inventory.
+    aliases: [clearinv, cl]
+    permission: naturecore.inventory
+  kill:
+    description: Kill a player.
+    permission: naturecore.kill
+  feed:
+    description: Feed your self or player.
+    permission: naturecore.feed
+  day:
+    description: Set time to day.
+    permission: naturecore.day
+  night:
+    description: Set time to night.
+    permission: naturecore.night
+  whitelist:
+    description: Turn on or off whitelist.
+    permission: naturecore.whitelist
+  setspawn:
+    description: Set spawn.
+    permission: naturecore.setspawn
+  spawn:
+    description: Teleport to spawn.
+    permission: naturecore.spawn
+  naturecore:
+    description: Reload plugin configuration.
+    permission: naturecore.help
+
+permissions:
+  naturecore.gamemode.creative:
+    description: Allows the player to set their gamemode to Creative.
+    default: op
+  naturecore.gamemode.survival:
+    description: Allows the player to set their gamemode to Survival.
+    default: op
+  naturecore.gamemode.adventure:
+    description: Allows the player to set their gamemode to Adventure.
+    default: op
+  naturecore.gamemode.spectator:
+    description: Allows the player to set their gamemode to Spectator.
+    default: op
+  naturecore.weather.rain:
+    description: Allows the player to set the weather to rain.
+    default: op
+  naturecore.weather.sun:
+    description: Allows the player to set the weather to sun.
+    default: op
+  naturecore.tpcoords:
+    description: Allows the player to teleport to coords.
+    default: op
+  naturecore.tp:
+    description: Allows the player to teleport to other player.
+    default: op
+  naturecore.tpall:
+    description: Allows the player to teleport all players.
+    default: op
+  naturecore.broadcast:
+    description: Allows the player to type message to all players.
+    default: op
+  naturecore.anvil:
+    description: Allows the player to open anvil.
+    default: op
+  naturecore.craft:
+    description: Allows the player to open crafting.
+    default: op
+  naturecore.smite:
+    description: Allows the player to smite players.
+    default: op
+  naturecore.fly:
+    description: Allows the player to fly.
+    default: op
+  naturecore.speed:
+    description: Allows the player to change speed.
+    default: op
+  naturecore.flyspeed:
+    description: Allows the player to change speed of fly.
+    default: op
+  naturecore.clearinventory:
+    description: Allows the player to clear inventory.
+    default: op
+  naturecore.kill:
+    description: Allows the player to kill other players.
+    default: op
+  naturecore.heal:
+    description: Allows the player to heal other players.
+    default: op
+  naturecore.feed:
+    description: Allows the player to feed other players.
+    default: op
+  naturecore.day:
+    description: Allows the player to set the time to day.
+    default: op
+  naturecore.night:
+    description: Allows the player to set the time to night.
+    default: op
+  naturecore.whitelist:
+    description: Allows the player to turn on or off whitelist.
+    default: op
+  naturecore.setspawn:
+    description: Allows the player to set spawn.
+    default: op
+  naturecore.spawn:
+    description: Allows the player to teleport to spawn.
+    default: op
+  naturecore.help:
+    description: Allows the player to show help menu.
+    default: op
+  naturecore.reload:
+    description: Allows the player to reload plugin.
+    default: op
